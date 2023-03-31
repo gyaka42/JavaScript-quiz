@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
 
-*{
+*{  
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
 
 body{
     font-family: "Sniglet", cursive ;
-    background: url(img/quiz.png) center;
+    background: url(img/quiz.png) center ;
     display: flex;
     flex-direction: column;
     align-items:  center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    margin: 0px;
     overflow: hidden;
+}
+
+h1{
+    margin: 5% 0 10px 0;
 }
 
 .quiz-container{
@@ -23,15 +29,18 @@ body{
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 600px;
     margin-bottom: 20rem;
+    
 }
 
 .quiz-header{
     padding: 4rem;
+    border: 1px solid;
 
 }
 
 h2{
     padding: 0 1rem;
+    
 }
 
 ul{
