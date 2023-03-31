@@ -9,7 +9,7 @@
 
 body{
     font-family: "Sniglet", cursive ;
-    background: url(img/quiz.png) center ;
+    background: url(img/quiz.png) ;
     display: flex;
     flex-direction: column;
     align-items:  center;
@@ -20,7 +20,7 @@ body{
 }
 
 h1{
-    margin: 5% 0 10px 0;
+    margin: 5% 0 20px 0;
 }
 
 .quiz-container{
@@ -34,7 +34,6 @@ h1{
 
 .quiz-header{
     padding: 4rem;
-    border: 1px solid;
 
 }
 
